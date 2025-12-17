@@ -38,89 +38,57 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_yADbgdqfEfCTLpLxFP_pPQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_yADbg9qfEfCTLpLxFP_pPQ" name="" content="" returnTypeFixed="true"/>
           <operations xmi:type="expression:Operation" xmi:id="_64_LGdqfEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_64_LGtqfEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_64_LG9qfEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_64_LHNqfEfCTLpLxFP_pPQ" name="complaintManagementInput.customerName" content="complaintManagementInput?.customerName" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_64_LHdqfEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_64_LGtqfEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_64_LHNqfEfCTLpLxFP_pPQ" name="complaintManagementInput.customerName" content="     ?.customerName" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_64_LHtqfEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setCustomerName">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_64_LH9qfEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_64_LINqfEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_64_LIdqfEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_64_LItqfEfCTLpLxFP_pPQ" name="complaintManagementInput.accountNumber" content="complaintManagementInput?.accountNumber" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_64_LI9qfEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_64_LINqfEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_64_LItqfEfCTLpLxFP_pPQ" name="complaintManagementInput.accountNumber" content="     ?.accountNumber" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_64_LJNqfEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setAccountNumber">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_64_LJdqfEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_64_LJtqfEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_64_LJ9qfEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_64_LKNqfEfCTLpLxFP_pPQ" name="complaintManagementInput.complaintType" content="complaintManagementInput?.complaintType" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_64_LKdqfEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_64_LJtqfEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_64_LKNqfEfCTLpLxFP_pPQ" name="complaintManagementInput.complaintType" content="     ?.complaintType" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_64_LKtqfEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setComplaintType">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_64_LK9qfEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_64_LLNqfEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_64_LLdqfEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_64_LLtqfEfCTLpLxFP_pPQ" name="complaintManagementInput.description" content="complaintManagementInput?.description" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_64_LL9qfEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_64_LLNqfEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_64_LLtqfEfCTLpLxFP_pPQ" name="complaintManagementInput.description" content="     ?.description" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_64_LMNqfEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setDescription">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_64_LMdqfEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_64_LMtqfEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_64_LM9qfEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_64_LNNqfEfCTLpLxFP_pPQ" name="complaintManagementInput.lodgmentDate" content="complaintManagementInput?.lodgmentDate" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.time.LocalDate">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_64_LNdqfEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_64_LMtqfEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_64_LNNqfEfCTLpLxFP_pPQ" name="complaintManagementInput.lodgmentDate" content="     ?.lodgmentDate" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.time.LocalDate"/>
             <operator xmi:type="expression:Operator" xmi:id="_64_LNtqfEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setLodgmentDate">
               <inputTypes>java.time.LocalDate</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_64_LN9qfEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_64_LONqfEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_64_LOdqfEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_64_LOtqfEfCTLpLxFP_pPQ" name="complaintManagementInput.category" content="complaintManagementInput?.category" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_64_LO9qfEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_64_LONqfEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_64_LOtqfEfCTLpLxFP_pPQ" name="complaintManagementInput.category" content="     ?.category" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_64_LPNqfEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setCategory">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_64_LPdqfEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_64_LPtqfEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_64_LP9qfEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_64_LQNqfEfCTLpLxFP_pPQ" name="complaintManagementInput.customerPhone" content="complaintManagementInput?.customerPhone" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Integer">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_64_LQdqfEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_64_LPtqfEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_64_LQNqfEfCTLpLxFP_pPQ" name="complaintManagementInput.customerPhone" content="     ?.customerPhone" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Integer"/>
             <operator xmi:type="expression:Operator" xmi:id="_64_LQtqfEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setCustomerPhone">
               <inputTypes>java.lang.Integer</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_64_LQ9qfEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_64_LRNqfEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_64_LRdqfEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_64_LRtqfEfCTLpLxFP_pPQ" name="complaintManagementInput.customerEmail" content="complaintManagementInput?.customerEmail" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_64_LR9qfEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_64_LRNqfEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_64_LRtqfEfCTLpLxFP_pPQ" name="complaintManagementInput.customerEmail" content="     ?.customerEmail" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_64_LSNqfEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setCustomerEmail">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
@@ -131,20 +99,9 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_yAEClNqfEfCTLpLxFP_pPQ" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_yAECk9qfEfCTLpLxFP_pPQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_0ZsMaNqfEfCTLpLxFP_pPQ">
-            <targetForm xmi:type="expression:Expression" xmi:id="_74HFwNqfEfCTLpLxFP_pPQ" name="FillComplaint1" content="37c9027f-e7ae-48ad-96a2-45a5cba88904" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_74HFwNqfEfCTLpLxFP_pPQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
-          <contract xmi:type="process:Contract" xmi:id="_0ZsMZ9qfEfCTLpLxFP_pPQ">
-            <inputs xmi:type="process:ContractInput" xmi:id="_64_LENqfEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" dataReference="complaintManagement">
-              <inputs xmi:type="process:ContractInput" xmi:id="_64_LEdqfEfCTLpLxFP_pPQ" name="customerName"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_64_LEtqfEfCTLpLxFP_pPQ" name="accountNumber"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_64_LE9qfEfCTLpLxFP_pPQ" name="complaintType"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_64_LFNqfEfCTLpLxFP_pPQ" name="description"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_64_LFdqfEfCTLpLxFP_pPQ" name="lodgmentDate" type="LOCALDATE"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_64_LFtqfEfCTLpLxFP_pPQ" name="category"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_64_LF9qfEfCTLpLxFP_pPQ" name="customerPhone" type="INTEGER"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_64_LGNqfEfCTLpLxFP_pPQ" name="customerEmail"/>
-            </inputs>
-          </contract>
+          <contract xmi:type="process:Contract" xmi:id="_0ZsMZ9qfEfCTLpLxFP_pPQ"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_0ZsMatqfEfCTLpLxFP_pPQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
@@ -164,7 +121,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_E8Bnd9UoEfCluqGJMweO3w" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_E8BndtUoEfCluqGJMweO3w" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_PcdgWNUoEfCluqGJMweO3w">
-            <targetForm xmi:type="expression:Expression" xmi:id="_PcdgWdUoEfCluqGJMweO3w" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_SZrfsNsYEfCThLbEgJRfFQ" name="taskAutogeneratedForm" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_PcdgV9UoEfCluqGJMweO3w"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_PcdgWtUoEfCluqGJMweO3w" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -174,9 +131,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_QkIMYNqhEfCTLpLxFP_pPQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_QkIzcNqhEfCTLpLxFP_pPQ" name="" content="" returnTypeFixed="true"/>
           <operations xmi:type="expression:Operation" xmi:id="_hhaz-dqhEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_hhaz-tqhEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_hhaz-9qhEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_hhaz-tqhEfCTLpLxFP_pPQ" name="" content=""/>
             <rightOperand xmi:type="expression:Expression" xmi:id="_hhaz_NqhEfCTLpLxFP_pPQ" name="complaintManagementInput.customerName" content="complaintManagementInput?.customerName" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
               <referencedElements xmi:type="process:ContractInput" xmi:id="_hhaz_dqhEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
@@ -185,9 +140,7 @@
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_hhaz_9qhEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_hha0ANqhEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_hha0AdqhEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_hha0ANqhEfCTLpLxFP_pPQ" name="" content=""/>
             <rightOperand xmi:type="expression:Expression" xmi:id="_hha0AtqhEfCTLpLxFP_pPQ" name="complaintManagementInput.accountNumber" content="complaintManagementInput?.accountNumber" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
               <referencedElements xmi:type="process:ContractInput" xmi:id="_hha0A9qhEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
@@ -196,9 +149,7 @@
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_hha0BdqhEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_hha0BtqhEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_hha0B9qhEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_hha0BtqhEfCTLpLxFP_pPQ" name="" content=""/>
             <rightOperand xmi:type="expression:Expression" xmi:id="_hha0CNqhEfCTLpLxFP_pPQ" name="complaintManagementInput.complaintType" content="complaintManagementInput?.complaintType" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
               <referencedElements xmi:type="process:ContractInput" xmi:id="_hha0CdqhEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
@@ -207,9 +158,7 @@
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_hha0C9qhEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_hha0DNqhEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_hha0DdqhEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_hha0DNqhEfCTLpLxFP_pPQ" name="" content=""/>
             <rightOperand xmi:type="expression:Expression" xmi:id="_hha0DtqhEfCTLpLxFP_pPQ" name="complaintManagementInput.description" content="complaintManagementInput?.description" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
               <referencedElements xmi:type="process:ContractInput" xmi:id="_hha0D9qhEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
@@ -218,9 +167,7 @@
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_hha0EdqhEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_hha0EtqhEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_hha0E9qhEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_hha0EtqhEfCTLpLxFP_pPQ" name="" content=""/>
             <rightOperand xmi:type="expression:Expression" xmi:id="_hha0FNqhEfCTLpLxFP_pPQ" name="complaintManagementInput.status" content="complaintManagementInput?.status" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
               <referencedElements xmi:type="process:ContractInput" xmi:id="_hha0FdqhEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
@@ -229,9 +176,7 @@
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_hha0F9qhEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_hha0GNqhEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_hha0GdqhEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_hha0GNqhEfCTLpLxFP_pPQ" name="" content=""/>
             <rightOperand xmi:type="expression:Expression" xmi:id="_hha0GtqhEfCTLpLxFP_pPQ" name="complaintManagementInput.lodgmentDate" content="complaintManagementInput?.lodgmentDate" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.time.LocalDate">
               <referencedElements xmi:type="process:ContractInput" xmi:id="_hha0G9qhEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
@@ -240,9 +185,7 @@
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_hha0HdqhEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_hha0HtqhEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_hha0H9qhEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_hha0HtqhEfCTLpLxFP_pPQ" name="" content=""/>
             <rightOperand xmi:type="expression:Expression" xmi:id="_hha0INqhEfCTLpLxFP_pPQ" name="complaintManagementInput.customerPhone" content="complaintManagementInput?.customerPhone" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Integer">
               <referencedElements xmi:type="process:ContractInput" xmi:id="_hha0IdqhEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
@@ -251,9 +194,7 @@
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_hha0I9qhEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_hha0JNqhEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_hha0JdqhEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_hha0JNqhEfCTLpLxFP_pPQ" name="" content=""/>
             <rightOperand xmi:type="expression:Expression" xmi:id="_hha0JtqhEfCTLpLxFP_pPQ" name="complaintManagementInput.customerEmail" content="complaintManagementInput?.customerEmail" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
               <referencedElements xmi:type="process:ContractInput" xmi:id="_hha0J9qhEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
             </rightOperand>
@@ -270,7 +211,7 @@
             <targetForm xmi:type="expression:Expression" xmi:id="_joa8sNqhEfCTLpLxFP_pPQ" name="EscalateToCMO2" content="67d296ab-313d-470b-ab05-71d65609025c" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_TDkqWNqhEfCTLpLxFP_pPQ">
-            <inputs xmi:type="process:ContractInput" xmi:id="_hhaz8NqhEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" dataReference="complaintManagement" createMode="false">
+            <inputs xmi:type="process:ContractInput" xmi:id="_hhaz8NqhEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false">
               <inputs xmi:type="process:ContractInput" xmi:id="_hhaz8dqhEfCTLpLxFP_pPQ" name="customerName" createMode="false"/>
               <inputs xmi:type="process:ContractInput" xmi:id="_hhaz8tqhEfCTLpLxFP_pPQ" name="accountNumber" createMode="false"/>
               <inputs xmi:type="process:ContractInput" xmi:id="_hhaz89qhEfCTLpLxFP_pPQ" name="complaintType" createMode="false"/>
@@ -290,100 +231,64 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_7FKMsdHJEfCq4fAUiiAMQg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_7FKMs9HJEfCq4fAUiiAMQg" name="" content="" returnTypeFixed="true"/>
           <operations xmi:type="expression:Operation" xmi:id="_HoqQytqiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_HoqQy9qiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_HoqQzNqiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_HoqQzdqiEfCTLpLxFP_pPQ" name="complaintManagementInput.customerName" content="complaintManagementInput?.customerName" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_HoqQztqiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_HoqQy9qiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_HoqQzdqiEfCTLpLxFP_pPQ" name="complaintManagementInput.customerName" content="     ?.customerName" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_HoqQz9qiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setCustomerName">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_HoqQ0NqiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_HoqQ0dqiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_HoqQ0tqiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_HoqQ09qiEfCTLpLxFP_pPQ" name="complaintManagementInput.accountNumber" content="complaintManagementInput?.accountNumber" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_HoqQ1NqiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_HoqQ0dqiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_HoqQ09qiEfCTLpLxFP_pPQ" name="complaintManagementInput.accountNumber" content="     ?.accountNumber" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_HoqQ1dqiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setAccountNumber">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_HoqQ1tqiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_HoqQ19qiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_HoqQ2NqiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_HoqQ2dqiEfCTLpLxFP_pPQ" name="complaintManagementInput.complaintType" content="complaintManagementInput?.complaintType" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_HoqQ2tqiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_HoqQ19qiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_HoqQ2dqiEfCTLpLxFP_pPQ" name="complaintManagementInput.complaintType" content="     ?.complaintType" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_HoqQ29qiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setComplaintType">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_HoqQ3NqiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_HoqQ3dqiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_HoqQ3tqiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_HoqQ39qiEfCTLpLxFP_pPQ" name="complaintManagementInput.priority" content="complaintManagementInput?.priority" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_HoqQ4NqiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_HoqQ3dqiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_HoqQ39qiEfCTLpLxFP_pPQ" name="complaintManagementInput.priority" content="     ?.priority" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_HoqQ4dqiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setPriority">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_HoqQ4tqiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_HoqQ49qiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_HoqQ5NqiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_HoqQ5dqiEfCTLpLxFP_pPQ" name="complaintManagementInput.description" content="complaintManagementInput?.description" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_HoqQ5tqiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_HoqQ49qiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_HoqQ5dqiEfCTLpLxFP_pPQ" name="complaintManagementInput.description" content="     ?.description" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_HoqQ59qiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setDescription">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_HoqQ6NqiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_HoqQ6dqiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_HoqQ6tqiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Hoq30NqiEfCTLpLxFP_pPQ" name="complaintManagementInput.status" content="complaintManagementInput?.status" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Hoq30dqiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_HoqQ6dqiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_Hoq30NqiEfCTLpLxFP_pPQ" name="complaintManagementInput.status" content="     ?.status" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_Hoq30tqiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setStatus">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_Hoq309qiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Hoq31NqiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Hoq31dqiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Hoq31tqiEfCTLpLxFP_pPQ" name="complaintManagementInput.lodgmentDate" content="complaintManagementInput?.lodgmentDate" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.time.LocalDate">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Hoq319qiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_Hoq31NqiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_Hoq31tqiEfCTLpLxFP_pPQ" name="complaintManagementInput.lodgmentDate" content="     ?.lodgmentDate" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.time.LocalDate"/>
             <operator xmi:type="expression:Operator" xmi:id="_Hoq32NqiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setLodgmentDate">
               <inputTypes>java.time.LocalDate</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_Hoq32dqiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Hoq32tqiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Hoq329qiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Hoq33NqiEfCTLpLxFP_pPQ" name="complaintManagementInput.customerPhone" content="complaintManagementInput?.customerPhone" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Integer">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Hoq33dqiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_Hoq32tqiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_Hoq33NqiEfCTLpLxFP_pPQ" name="complaintManagementInput.customerPhone" content="     ?.customerPhone" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Integer"/>
             <operator xmi:type="expression:Operator" xmi:id="_Hoq33tqiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setCustomerPhone">
               <inputTypes>java.lang.Integer</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_Hoq339qiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Hoq34NqiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Hoq34dqiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Hoq34tqiEfCTLpLxFP_pPQ" name="complaintManagementInput.customerEmail" content="complaintManagementInput?.customerEmail" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_Hoq349qiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_Hoq34NqiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_Hoq34tqiEfCTLpLxFP_pPQ" name="complaintManagementInput.customerEmail" content="     ?.customerEmail" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_Hoq35NqiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setCustomerEmail">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
@@ -399,21 +304,9 @@
             </condition>
           </BoundaryIntermediateEvents>
           <formMapping xmi:type="process:FormMapping" xmi:id="_7FKMutHJEfCq4fAUiiAMQg">
-            <targetForm xmi:type="expression:Expression" xmi:id="_JDFnYNqiEfCTLpLxFP_pPQ" name="CMPScreening" content="5b72e922-96c7-4067-b44b-6a745485e606" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_JDFnYNqiEfCTLpLxFP_pPQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
-          <contract xmi:type="process:Contract" xmi:id="_7FKMudHJEfCq4fAUiiAMQg">
-            <inputs xmi:type="process:ContractInput" xmi:id="_HoqQwNqiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" dataReference="complaintManagement" createMode="false">
-              <inputs xmi:type="process:ContractInput" xmi:id="_HoqQwdqiEfCTLpLxFP_pPQ" name="customerName" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_HoqQwtqiEfCTLpLxFP_pPQ" name="accountNumber" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_HoqQw9qiEfCTLpLxFP_pPQ" name="complaintType" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_HoqQxNqiEfCTLpLxFP_pPQ" name="priority" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_HoqQxdqiEfCTLpLxFP_pPQ" name="description" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_HoqQxtqiEfCTLpLxFP_pPQ" name="status" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_HoqQx9qiEfCTLpLxFP_pPQ" name="lodgmentDate" type="LOCALDATE" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_HoqQyNqiEfCTLpLxFP_pPQ" name="customerPhone" type="INTEGER" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_HoqQydqiEfCTLpLxFP_pPQ" name="customerEmail" createMode="false"/>
-            </inputs>
-          </contract>
+          <contract xmi:type="process:Contract" xmi:id="_7FKMudHJEfCq4fAUiiAMQg"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_7FKMvNHJEfCq4fAUiiAMQg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:XORGateway" xmi:id="_f26I4NmvEfCuLry7pRqKVA" name="Investigation Required ?" outgoing="_Z3pfsNmwEfCuLry7pRqKVA _tv2ZOdmwEfCuLry7pRqKVA" incoming="_fZz9N9mvEfCuLry7pRqKVA">
@@ -463,7 +356,7 @@
             </condition>
           </BoundaryIntermediateEvents>
           <formMapping xmi:type="process:FormMapping" xmi:id="_VcDn-NHKEfCq4fAUiiAMQg">
-            <targetForm xmi:type="expression:Expression" xmi:id="_VcDn-dHKEfCq4fAUiiAMQg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_SZrfsdsYEfCThLbEgJRfFQ" name="taskAutogeneratedForm" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_VcDn99HKEfCq4fAUiiAMQg"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_VcDn-tHKEfCq4fAUiiAMQg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -490,111 +383,71 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_Aj5HANmxEfCuLry7pRqKVA" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_Aj5HAtmxEfCuLry7pRqKVA" name="" content="" returnTypeFixed="true"/>
           <operations xmi:type="expression:Operation" xmi:id="_3J4Uu9qiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_3J4UvNqiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3J4UvdqiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_3J4UvtqiEfCTLpLxFP_pPQ" name="complaintManagementInput.customerName" content="complaintManagementInput?.customerName" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_3J4Uv9qiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3J4UvNqiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3J4UvtqiEfCTLpLxFP_pPQ" name="complaintManagementInput.customerName" content="     ?.customerName" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_3J4UwNqiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setCustomerName">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_3J4UwdqiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_3J4UwtqiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3J4Uw9qiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_3J4UxNqiEfCTLpLxFP_pPQ" name="complaintManagementInput.accountNumber" content="complaintManagementInput?.accountNumber" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_3J4UxdqiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3J4UwtqiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3J4UxNqiEfCTLpLxFP_pPQ" name="complaintManagementInput.accountNumber" content="     ?.accountNumber" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_3J4UxtqiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setAccountNumber">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_3J4Ux9qiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_3J4UyNqiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3J4UydqiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_3J4UytqiEfCTLpLxFP_pPQ" name="complaintManagementInput.complaintType" content="complaintManagementInput?.complaintType" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_3J4Uy9qiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3J4UyNqiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3J4UytqiEfCTLpLxFP_pPQ" name="complaintManagementInput.complaintType" content="     ?.complaintType" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_3J4UzNqiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setComplaintType">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_3J4UzdqiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_3J4UztqiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3J4Uz9qiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_3J4U0NqiEfCTLpLxFP_pPQ" name="complaintManagementInput.priority" content="complaintManagementInput?.priority" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_3J4U0dqiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3J4UztqiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3J4U0NqiEfCTLpLxFP_pPQ" name="complaintManagementInput.priority" content="     ?.priority" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_3J4U0tqiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setPriority">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_3J4U09qiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_3J4U1NqiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3J4U1dqiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_3J4U1tqiEfCTLpLxFP_pPQ" name="complaintManagementInput.description" content="complaintManagementInput?.description" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_3J4U19qiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3J4U1NqiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3J4U1tqiEfCTLpLxFP_pPQ" name="complaintManagementInput.description" content="     ?.description" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_3J4U2NqiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setDescription">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_3J4U2dqiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_3J4U2tqiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3J4U29qiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_3J4U3NqiEfCTLpLxFP_pPQ" name="complaintManagementInput.status" content="complaintManagementInput?.status" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_3J4U3dqiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3J4U2tqiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3J4U3NqiEfCTLpLxFP_pPQ" name="complaintManagementInput.status" content="     ?.status" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_3J4U3tqiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setStatus">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_3J4U39qiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_3J4U4NqiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3J4U4dqiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_3J4U4tqiEfCTLpLxFP_pPQ" name="complaintManagementInput.lodgmentDate" content="complaintManagementInput?.lodgmentDate" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.time.LocalDate">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_3J4U49qiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3J4U4NqiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3J4U4tqiEfCTLpLxFP_pPQ" name="complaintManagementInput.lodgmentDate" content="     ?.lodgmentDate" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.time.LocalDate"/>
             <operator xmi:type="expression:Operator" xmi:id="_3J4U5NqiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setLodgmentDate">
               <inputTypes>java.time.LocalDate</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_3J4U5dqiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_3J4U5tqiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3J4U59qiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_3J4U6NqiEfCTLpLxFP_pPQ" name="complaintManagementInput.resolutionDetails" content="complaintManagementInput?.resolutionDetails" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_3J4U6dqiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3J4U5tqiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3J4U6NqiEfCTLpLxFP_pPQ" name="complaintManagementInput.resolutionDetails" content="     ?.resolutionDetails" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_3J4U6tqiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setResolutionDetails">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_3J4U69qiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_3J4U7NqiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3J4U7dqiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_3J4U7tqiEfCTLpLxFP_pPQ" name="complaintManagementInput.customerPhone" content="complaintManagementInput?.customerPhone" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Integer">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_3J4U79qiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3J4U7NqiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3J4U7tqiEfCTLpLxFP_pPQ" name="complaintManagementInput.customerPhone" content="     ?.customerPhone" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Integer"/>
             <operator xmi:type="expression:Operator" xmi:id="_3J4U8NqiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setCustomerPhone">
               <inputTypes>java.lang.Integer</inputTypes>
             </operator>
           </operations>
           <operations xmi:type="expression:Operation" xmi:id="_3J4U8dqiEfCTLpLxFP_pPQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_3J47wNqiEfCTLpLxFP_pPQ" name="complaintManagement" content="complaintManagement" type="TYPE_VARIABLE" returnType="com.company.model.Complaint">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_3J47wdqiEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_3J47wtqiEfCTLpLxFP_pPQ" name="complaintManagementInput.customerEmail" content="complaintManagementInput?.customerEmail" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_3J47w9qiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_3J47wNqiEfCTLpLxFP_pPQ" name="" content=""/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_3J47wtqiEfCTLpLxFP_pPQ" name="complaintManagementInput.customerEmail" content="     ?.customerEmail" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
             <operator xmi:type="expression:Operator" xmi:id="_3J47xNqiEfCTLpLxFP_pPQ" type="JAVA_METHOD" expression="setCustomerEmail">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
@@ -610,22 +463,9 @@
             </condition>
           </BoundaryIntermediateEvents>
           <formMapping xmi:type="process:FormMapping" xmi:id="_KzH7KtmxEfCuLry7pRqKVA">
-            <targetForm xmi:type="expression:Expression" xmi:id="_-HSywNqiEfCTLpLxFP_pPQ" name="secondLevel1" content="5da94a31-5ffa-49f5-8d76-60b550d47740" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_-HSywNqiEfCTLpLxFP_pPQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
-          <contract xmi:type="process:Contract" xmi:id="_KzH7KdmxEfCuLry7pRqKVA">
-            <inputs xmi:type="process:ContractInput" xmi:id="_3J4UsNqiEfCTLpLxFP_pPQ" name="complaintManagementInput" type="COMPLEX" dataReference="complaintManagement" createMode="false">
-              <inputs xmi:type="process:ContractInput" xmi:id="_3J4UsdqiEfCTLpLxFP_pPQ" name="customerName" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_3J4UstqiEfCTLpLxFP_pPQ" name="accountNumber" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_3J4Us9qiEfCTLpLxFP_pPQ" name="complaintType" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_3J4UtNqiEfCTLpLxFP_pPQ" name="priority" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_3J4UtdqiEfCTLpLxFP_pPQ" name="description" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_3J4UttqiEfCTLpLxFP_pPQ" name="status" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_3J4Ut9qiEfCTLpLxFP_pPQ" name="lodgmentDate" type="LOCALDATE" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_3J4UuNqiEfCTLpLxFP_pPQ" name="resolutionDetails" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_3J4UudqiEfCTLpLxFP_pPQ" name="customerPhone" type="INTEGER" createMode="false"/>
-              <inputs xmi:type="process:ContractInput" xmi:id="_3J4UutqiEfCTLpLxFP_pPQ" name="customerEmail" createMode="false"/>
-            </inputs>
-          </contract>
+          <contract xmi:type="process:Contract" xmi:id="_KzH7KdmxEfCuLry7pRqKVA"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_KzH7LNmxEfCuLry7pRqKVA" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:XORGateway" xmi:id="_Por74NmxEfCuLry7pRqKVA" name="Sensetive" outgoing="_znLHAtmyEfCuLry7pRqKVA _02fZ3NmyEfCuLry7pRqKVA" incoming="_PQs5sNmxEfCuLry7pRqKVA">
@@ -669,9 +509,6 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_ci9Pg9qZEfCTLpLxFP_pPQ" name="" content="" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <data xmi:type="process:BusinessObjectData" xmi:id="_AaVNYNqYEfCTLpLxFP_pPQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint">
-        <defaultValue xmi:type="expression:Expression" xmi:id="_kg_8wNqcEfCTLpLxFP_pPQ" name="initComplaintManagement()" content="def complaintVar = new com.company.model.Complaint()&#xD;&#xA;complaintVar.customerName =      ?.customerName&#xD;&#xA;complaintVar.accountNumber =      ?.accountNumber&#xD;&#xA;complaintVar.complaintType =      ?.complaintType&#xD;&#xA;complaintVar.description =      ?.description&#xD;&#xA;complaintVar.lodgmentDate =      ?.lodgmentDate&#xD;&#xA;return complaintVar" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="com.company.model.Complaint"/>
-      </data>
       <data xmi:type="process:Data" xmi:id="_M0tDYNqYEfCTLpLxFP_pPQ" name="sla_screening" dataType="_eWEmv9EPEfCon65KSlHj9Q">
         <defaultValue xmi:type="expression:Expression" xmi:id="_M0tDYdqYEfCTLpLxFP_pPQ" name="172800" content="172800" returnType="java.lang.Long"/>
       </data>
@@ -692,6 +529,9 @@
       </data>
       <data xmi:type="process:Data" xmi:id="_1VHsINqaEfCTLpLxFP_pPQ" name="sensetive" dataType="_eWEmvNEPEfCon65KSlHj9Q">
         <defaultValue xmi:type="expression:Expression" xmi:id="_1VHsIdqaEfCTLpLxFP_pPQ" content="" returnType="java.lang.Boolean"/>
+      </data>
+      <data xmi:type="process:BusinessObjectData" xmi:id="_0JaJsNsYEfCThLbEgJRfFQ" name="complaintManagement" dataType="_eWEmxNEPEfCon65KSlHj9Q" className="com.company.model.Complaint">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_0JawwNsYEfCThLbEgJRfFQ" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_eWEmpNEPEfCon65KSlHj9Q">
         <targetForm xmi:type="expression:Expression" xmi:id="_lrLQ4NqcEfCTLpLxFP_pPQ" name="newForm3" content="02f42032-facc-4de6-be9b-b23d8e5e612f" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>

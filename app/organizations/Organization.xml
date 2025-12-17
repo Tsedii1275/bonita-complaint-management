@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ASCII"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Customer">
+      <firstName>Tsedi</firstName>
+      <lastName>T</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="CSO">
+      <firstName>CSO</firstName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="CMO">
+      <firstName>CMO</firstName>
+      <lastName>M</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Audit">
+      <firstName>Audit</firstName>
+      <lastName>Department</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Department">
+      <firstName>Department</firstName>
+      <lastName>D</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Customer">
+      <displayName>Customer</displayName>
+    </role>
+    <role name="CSO">
+      <displayName>CSO</displayName>
+    </role>
+    <role name="Complaint Management">
+      <displayName>Complaint Manager</displayName>
+    </role>
+    <role name="Investigation">
+      <displayName>Investigation</displayName>
+    </role>
+    <role name="Resolution">
+      <displayName>Resolution</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Dashen">
+      <displayName>Dashen</displayName>
+    </group>
+    <group name="Customer" parentPath="/Dashen">
+      <displayName>Customer</displayName>
+    </group>
+    <group name="Branch" parentPath="/Dashen">
+      <displayName>Branch</displayName>
+    </group>
+    <group name="CSO" parentPath="/Dashen/Branch">
+      <displayName>CSO</displayName>
+    </group>
+    <group name="CMD" parentPath="/Dashen">
+      <displayName>CMD</displayName>
+    </group>
+    <group name="Audit Department" parentPath="/Dashen">
+      <displayName>Audit Department</displayName>
+    </group>
+    <group name="Department" parentPath="/Dashen">
+      <displayName>Department</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Customer</userName>
+      <roleName>Customer</roleName>
+      <groupName>Customer</groupName>
+      <groupParentPath>/Dashen</groupParentPath>
+    </membership>
+    <membership>
+      <userName>CSO</userName>
+      <roleName>CSO</roleName>
+      <groupName>CSO</groupName>
+      <groupParentPath>/Dashen/Branch</groupParentPath>
+    </membership>
+    <membership>
+      <userName>CMO</userName>
+      <roleName>Complaint Management</roleName>
+      <groupName>CMD</groupName>
+      <groupParentPath>/Dashen</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Audit</userName>
+      <roleName>Investigation</roleName>
+      <groupName>Audit Department</groupName>
+      <groupParentPath>/Dashen</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Department</userName>
+      <roleName>Resolution</roleName>
+      <groupName>Department</groupName>
+      <groupParentPath>/Dashen</groupParentPath>
+    </membership>
+  </memberships>
+</organization:Organization>
