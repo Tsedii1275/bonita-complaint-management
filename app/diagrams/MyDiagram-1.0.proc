@@ -99,9 +99,22 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_yAEClNqfEfCTLpLxFP_pPQ" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_yAECk9qfEfCTLpLxFP_pPQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_0ZsMaNqfEfCTLpLxFP_pPQ">
-            <targetForm xmi:type="expression:Expression" xmi:id="_74HFwNqfEfCTLpLxFP_pPQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_IUQE0Ns5EfCThLbEgJRfFQ" name="Customer" content="94eed787-c9e4-4f3b-b554-a9b6b43d0869" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
-          <contract xmi:type="process:Contract" xmi:id="_0ZsMZ9qfEfCTLpLxFP_pPQ"/>
+          <contract xmi:type="process:Contract" xmi:id="_0ZsMZ9qfEfCTLpLxFP_pPQ">
+            <inputs xmi:type="process:ContractInput" xmi:id="_HGf4QNs5EfCThLbEgJRfFQ" name="complaintManagementInput" type="COMPLEX" dataReference="complaintManagement">
+              <inputs xmi:type="process:ContractInput" xmi:id="_HGf4Qds5EfCThLbEgJRfFQ" name="customerName"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_HGf4Qts5EfCThLbEgJRfFQ" name="customerEmail"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_HGf4Q9s5EfCThLbEgJRfFQ" name="customerPhone" type="INTEGER"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_HGf4RNs5EfCThLbEgJRfFQ" name="accountNumber"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_HGf4Rds5EfCThLbEgJRfFQ" name="complaintType"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_HGf4Rts5EfCThLbEgJRfFQ" name="description"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_HGf4R9s5EfCThLbEgJRfFQ" name="lodgmentdate" type="LOCALDATE"/>
+            </inputs>
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_HGf4SNs5EfCThLbEgJRfFQ" expression="complaintManagementInput?.accountNumber != null" errorMessage="accountNumber is mandatory for Complaint" name="mandatory_complaintManagementInput_accountNumber">
+              <inputNames>complaintManagementInput</inputNames>
+            </constraints>
+          </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_0ZsMatqfEfCTLpLxFP_pPQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
