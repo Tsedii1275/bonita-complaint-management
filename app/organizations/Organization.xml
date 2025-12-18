@@ -58,6 +58,9 @@
     <role name="Resolution">
       <displayName>Resolution</displayName>
     </role>
+    <role name="Service Quality ">
+      <displayName>Service Quality </displayName>
+    </role>
   </roles>
   <groups>
     <group name="Dashen">
@@ -80,6 +83,9 @@
     </group>
     <group name="Department" parentPath="/Dashen">
       <displayName>Department</displayName>
+    </group>
+    <group name="SQD" parentPath="/Dashen">
+      <displayName>SQD</displayName>
     </group>
   </groups>
   <memberships>
