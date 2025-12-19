@@ -1,0 +1,177 @@
+/* ==================================================
+   GLOBAL SPACING & COMPONENT RHYTHM
+   ================================================== */
+
+.component {
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+/* Group related fields visually */
+.form-group {
+  margin-bottom: 14px;
+}
+
+/* ==================================================
+   TYPOGRAPHY (ENTERPRISE CLEAN)
+   ================================================== */
+
+body {
+  background-color: #f5f7fa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #2c3e50;
+}
+
+.control-label {
+  font-weight: 600;
+  color: #34495e;
+  font-size: 13px;
+}
+
+/* Required star – cleaner */
+.control-label--required:after {
+  content: " *";
+  color: #d9534f;
+  font-weight: 700;
+}
+
+/* ==================================================
+   PANELS (SCREENING SECTIONS)
+   ================================================== */
+
+.panel {
+  border-radius: 6px;
+  border: 1px solid #e1e5ea;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+.panel-heading {
+  background-color: #f8fafc !important;
+  font-weight: 600;
+  font-size: 14px;
+  color: #2c3e50;
+}
+
+.panel-body {
+  padding: 15px;
+}
+
+/* Emphasize Screening & Categorization area */
+.screening-panel {
+  border-left: 4px solid #337ab7;
+}
+
+/* ==================================================
+   FORM CONTROLS (MODERNIZED BOOTSTRAP)
+   ================================================== */
+
+.form-control {
+  border-radius: 4px;
+  border: 1px solid #ccd1d9;
+  height: 34px;
+  box-shadow: none;
+}
+
+textarea.form-control {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.form-control:focus {
+  border-color: #337ab7;
+  box-shadow: 0 0 0 2px rgba(51, 122, 183, 0.15);
+}
+
+/* Read-only / disabled fields */
+.form-control[readonly],
+.form-control[disabled] {
+  background-color: #f1f3f6;
+  cursor: not-allowed;
+}
+
+/* ==================================================
+   VALIDATION STATES (ANGULAR + BONITA SAFE)
+   ================================================== */
+
+input.ng-invalid.ng-dirty,
+select.ng-invalid.ng-dirty,
+textarea.ng-invalid.ng-dirty {
+  border-color: #d9534f;
+  box-shadow: 0 0 0 1px rgba(217, 83, 79, 0.2);
+}
+
+/* Invalid action buttons */
+.btn-invalid {
+  border-color: #d9534f;
+}
+
+/* ==================================================
+   TABLE INTERACTION
+   ================================================== */
+
+.table-hover > tbody > tr:hover {
+  background-color: #f5f9ff;
+  cursor: pointer;
+}
+
+/* ==================================================
+   BUTTONS (SCREENING ACTIONS)
+   ================================================== */
+
+.btn {
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+
+.btn-default {
+  background-color: #ecf0f1;
+  border-color: #dcdcdc;
+}
+
+.btn-danger {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+/* Button spacing (bottom action bar) */
+.action-bar .btn {
+  margin-left: 6px;
+}
+
+/* ==================================================
+   MODALS & DATE PICKERS (KEEP YOUR FIXES)
+   ================================================== */
+
+.bonita-modal {
+  overflow-y: auto;
+}
+
+.modal-open .datepicker,
+.modal-open .timepicker {
+  z-index: 9999;
+}
+
+/* Error redirection dialog */
+.ngdialog.ngdialog-theme-default .ngdialog-content {
+  width: 720px;
+  background: #ffffff;
+  padding: 15px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+  border-radius: 6px;
+}
+
+.ngdialog.ngdialog-theme-default {
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .ngdialog.ngdialog-theme-default .ngdialog-content {
+    width: 85%;
+  }
+}
