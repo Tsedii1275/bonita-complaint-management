@@ -1,10 +1,10 @@
 {
-  "id" : "FirstLevelResolution",
-  "name" : "FirstLevelResolution",
+  "id" : "SecondLevelResolution",
+  "name" : "SecondLevelResolution",
   "type" : "form",
-  "uuid" : "bf57b940-f4a3-442a-b556-f0558f8613fa",
+  "uuid" : "b8c6a637-d365-48ba-9d35-763c85244feb",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1766149813348,
+  "lastUpdate" : 1766212488491,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "eee204ea-7329-4966-addc-76f1edf79254",
+        "reference" : "87545f11-d307-428a-87e8-56fd63851893",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -53,7 +53,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "c4f13ff8-6967-4aa2-af71-09a4154cbd53",
+              "reference" : "a8b9f80f-6b23-4b5f-8534-b3d96eb57b4e",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -101,7 +101,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "7ed1db2b-28c9-4b17-a62b-2e89ef2e31e9",
+              "reference" : "2eabc085-8ff6-4ff0-92ca-6e4517a0cab9",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -117,7 +117,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "db1cf694-970f-4aec-8a09-de727a040c29",
+        "reference" : "35fa87fb-e726-45ab-8f13-06550b9965fb",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -126,7 +126,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "7478adeb-63e7-492f-b554-a37c5f6a4388",
+          "reference" : "166029fa-88b6-4346-8b31-0c93abb9b198",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -165,7 +165,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "7d82cec8-86b3-4f4b-a012-488f76e12908",
+                "reference" : "9d4533b4-81fd-476c-a9fe-4ede079dc701",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -197,7 +197,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "145577cf-dcd3-4c89-b9a7-f00afa6dfbe2",
+                "reference" : "cfb8634a-3ee9-41df-945f-56f0dd50eeb5",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -237,7 +237,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Customer Name"
+                          "value" : "Complaint Id"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -252,78 +252,14 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "complaintManagement.customerName"
+                          "value" : "complaintManagement.complaintId"
                         },
                         "required" : {
                           "type" : "constant",
                           "value" : false
                         }
                       },
-                      "reference" : "39760ad0-10a5-40c1-8ddf-7d7bc91a4193",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Customer Email"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "complaintManagement.customerEmail"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        }
-                      },
-                      "reference" : "ef9c634e-b0a2-4767-b0e3-f82749bbf88f",
+                      "reference" : "f5404e3e-8234-4644-be7f-b562c332470b",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -387,7 +323,7 @@
                           "value" : true
                         }
                       },
-                      "reference" : "4553e3c9-b425-4e20-857d-571476d74fd0",
+                      "reference" : "084bb86d-169c-40c4-bcec-a014146616ab",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -429,7 +365,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Complaint Type"
+                          "value" : "Customer Name"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -444,14 +380,14 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "complaintManagement.complaintType"
+                          "value" : "complaintManagement.customerName"
                         },
                         "required" : {
                           "type" : "constant",
                           "value" : false
                         }
                       },
-                      "reference" : "47a2eaf6-2c6e-4c75-ae4b-bb152de18951",
+                      "reference" : "d12b73bc-ab5d-4dce-9ff6-b6f1a20e7ce8",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -493,7 +429,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Priority"
+                          "value" : "Customer Email"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -508,14 +444,14 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "complaintManagement.priority"
+                          "value" : "complaintManagement.customerEmail"
                         },
                         "required" : {
                           "type" : "constant",
                           "value" : false
                         }
                       },
-                      "reference" : "696aae99-54cb-4213-92f6-12f399bd944c",
+                      "reference" : "b715c4dc-b5f8-4961-8df4-a5af10ddd9b8",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -579,7 +515,7 @@
                           "value" : false
                         }
                       },
-                      "reference" : "ad00fa56-ce6b-47d4-8f0b-edd55d434739",
+                      "reference" : "e320cb20-c90e-4aac-b579-7470ff8ce2a3",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -621,7 +557,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Status"
+                          "value" : "Complaint Type"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -636,14 +572,142 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "complaintManagement.status"
+                          "value" : "complaintManagement.complaintType"
                         },
                         "required" : {
                           "type" : "constant",
                           "value" : false
                         }
                       },
-                      "reference" : "7ce9b440-b70e-49c5-8c42-a9d264b86908",
+                      "reference" : "3d55a4dc-babe-4281-9d8e-3914fffc99d8",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Sub Category"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "complaintManagement.subCategory"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        }
+                      },
+                      "reference" : "31c50c12-9638-4670-b3cb-ac257f4c1d14",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Priority"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "complaintManagement.priority"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        }
+                      },
+                      "reference" : "5922ad8d-ba17-4071-8b6c-8032dcd2454f",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -717,15 +781,75 @@
                         "value" : {
                           "type" : "variable",
                           "value" : "complaintManagement.lodgmentdate"
+                        }
+                      },
+                      "reference" : "55d6a050-8a3f-4b8a-a843-f7584ba7d28d",
+                      "hasValidationError" : false,
+                      "id" : "pbDatePicker",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
                         },
-                        "allowHTML" : {
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Status"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "complaintManagement.status"
+                        },
+                        "required" : {
                           "type" : "constant",
                           "value" : false
                         }
                       },
-                      "reference" : "e81edbff-0038-4a21-adfb-efce39496e52",
+                      "reference" : "9bbfdbd0-eff5-4ecb-bb27-39edba13317c",
                       "hasValidationError" : false,
-                      "id" : "pbDatePicker",
+                      "id" : "pbInput",
                       "description" : ""
                     }
                   ],
@@ -787,135 +911,7 @@
                           "value" : false
                         }
                       },
-                      "reference" : "c3be2292-340c-485a-9d51-d4e9a92c288b",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Assigned To"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "complaintManagement.assignedTo"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        }
-                      },
-                      "reference" : "e8985a12-72b5-48a9-a17f-39157d8e6f0d",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Sub Category"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "complaintManagement.subCategory"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        }
-                      },
-                      "reference" : "24f3821c-8186-4768-a7db-bc836d82299d",
+                      "reference" : "b33a69cd-2c4b-41a7-9b57-853d50e6dd98",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -979,7 +975,7 @@
                           "value" : false
                         }
                       },
-                      "reference" : "492d9bc5-4c93-4069-b865-4c8033a675ca",
+                      "reference" : "cf9ff488-97a1-4cb3-b3a0-eddcaf687f39",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -1041,35 +1037,137 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
-                        },
-                        "allowHTML" : {
+                        }
+                      },
+                      "reference" : "1cd6917c-5a0f-4f73-8cc2-b78d54a94241",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
                           "type" : "constant",
                           "value" : false
                         },
-                        "minLength" : {
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
                           "type" : "constant",
                           "value" : ""
                         },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "debounce" : {
-                          "type" : "constant",
-                          "value" : 0
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
+                        "labelWidth" : {
                           "type" : "constant",
                           "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Root Cause"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "complaintManagement.rootCause"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
                         }
                       },
-                      "reference" : "fa04df8e-86b8-4cc4-9d0c-253002bce561",
+                      "reference" : "857585da-e6c0-4687-acd1-3080fec22ddd",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Assigned To"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "complaintManagement.assignedTo"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        }
+                      },
+                      "reference" : "6902884e-ff3f-4244-a685-4e215cffe9ef",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -1133,71 +1231,7 @@
                           "value" : false
                         }
                       },
-                      "reference" : "9f8af2ea-7c1e-493d-b34d-f113af4b8c29",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Complaint Id"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "complaintManagement.complaintId"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        }
-                      },
-                      "reference" : "7401d12f-4a67-4ad3-bd07-0881aa5492b8",
+                      "reference" : "3cf64d1d-7f2e-45c0-be3d-a345b8fd6956",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -1259,35 +1293,9 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "debounce" : {
-                          "type" : "constant",
-                          "value" : 0
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
                         }
                       },
-                      "reference" : "5359d105-129e-4134-a9c2-7e13268b9b37",
+                      "reference" : "9c72b2b4-9baa-4cea-b2e8-95e6ccc19d8c",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -1308,35 +1316,20 @@
                           "value" : false
                         },
                         "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
+                          "type" : "expression",
+                          "value" : "!complaintManagement.resolvableAtFirstlevel"
                         },
                         "cssClasses" : {
                           "type" : "constant",
                           "value" : ""
                         },
-                        "labelWidth" : {
+                        "disabled" : {
                           "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : false
+                          "value" : true
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Root Cause"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
+                          "value" : "Resolvable At Firstlevel"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -1344,115 +1337,13 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "complaintManagement.rootCause"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "debounce" : {
-                          "type" : "constant",
-                          "value" : 0
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
+                          "value" : "complaintManagement.resolvableAtFirstlevel"
                         }
                       },
-                      "reference" : "92787b07-6405-4cef-aeb7-f0dcc5e295b4",
+                      "reference" : "487b88f6-2bd7-4cd5-a0d6-629eaa1dffed",
                       "hasValidationError" : false,
-                      "id" : "pbInput",
+                      "id" : "pbCheckbox",
                       "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "disabled" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Resolvable At Firstlevel"
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 4
-                        },
-                        "inline" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "availableValues" : {
-                          "type" : "expression",
-                          "value" : "ResolvableAtFirstLevelOptions"
-                        },
-                        "displayedKey" : {
-                          "type" : "constant",
-                          "value" : "label"
-                        },
-                        "returnedKey" : {
-                          "type" : "constant",
-                          "value" : "value"
-                        },
-                        "selectedValue" : {
-                          "type" : "variable",
-                          "value" : "formOutput.complaintManagementInput.resolvableAtFirstlevel"
-                        }
-                      },
-                      "reference" : "f00195c7-b410-4e13-a8a5-481f9324be59",
-                      "hasValidationError" : false,
-                      "id" : "pbRadioButtons"
                     }
                   ],
                   [
@@ -1492,6 +1383,35 @@
                         "value" : {
                           "type" : "variable",
                           "value" : "complaintManagement.investigationRequired"
+                        }
+                      },
+                      "reference" : "d8168c56-28f2-4ea7-a4ad-342d2ab0816c",
+                      "hasValidationError" : false,
+                      "id" : "pbCheckbox",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "disabled" : {
+                          "type" : "constant",
+                          "value" : false
                         },
                         "required" : {
                           "type" : "constant",
@@ -1500,12 +1420,47 @@
                         "allowHTML" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Is Sensitive"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "inline" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "availableValues" : {
+                          "type" : "expression",
+                          "value" : "IsSensitive"
+                        },
+                        "displayedKey" : {
+                          "type" : "constant",
+                          "value" : "label"
+                        },
+                        "returnedKey" : {
+                          "type" : "constant",
+                          "value" : "value"
+                        },
+                        "selectedValue" : {
+                          "type" : "variable",
+                          "value" : "formOutput.complaintManagementInput.isSensestive"
                         }
                       },
-                      "reference" : "eb08b0a3-e98e-4fda-89de-88e3dd3297cc",
+                      "reference" : "33cf1c05-911e-45bc-a3ee-acb41ef34d96",
                       "hasValidationError" : false,
-                      "id" : "pbCheckbox",
-                      "description" : ""
+                      "id" : "pbRadioButtons"
                     }
                   ]
                 ]
@@ -1586,7 +1541,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "e53cf476-3760-47d0-8733-06037ac2c4a0",
+                "reference" : "6489df39-b724-474c-b901-a8311a99a2d7",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -1638,7 +1593,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "a61405e4-a9ca-432b-88b1-88003c2a1427",
+                "reference" : "41bdf213-0975-41dc-992a-f36537eb1121",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -1686,25 +1641,25 @@
         "\treturn {",
         "\t\t//map complaintManagement variable to expected task contract input",
         "\t\tcomplaintManagementInput: {",
+        "\t\t\tcomplaintId: $data.complaintManagement.complaintId !== undefined ? $data.complaintManagement.complaintId : null,",
+        "\t\t\taccountNumber: $data.complaintManagement.accountNumber !== undefined ? $data.complaintManagement.accountNumber : null,",
         "\t\t\tcustomerName: $data.complaintManagement.customerName !== undefined ? $data.complaintManagement.customerName : null,",
         "\t\t\tcustomerEmail: $data.complaintManagement.customerEmail !== undefined ? $data.complaintManagement.customerEmail : null,",
         "\t\t\tcustomerPhone: $data.complaintManagement.customerPhone !== undefined ? $data.complaintManagement.customerPhone : null,",
-        "\t\t\taccountNumber: $data.complaintManagement.accountNumber !== undefined ? $data.complaintManagement.accountNumber : null,",
-        "\t\t\tcomplaintType: $data.complaintManagement.complaintType !== undefined ? $data.complaintManagement.complaintType : null,",
-        "\t\t\tpriority: $data.complaintManagement.priority !== undefined ? $data.complaintManagement.priority : null,",
         "\t\t\tdescription: $data.complaintManagement.description !== undefined ? $data.complaintManagement.description : null,",
-        "\t\t\tstatus: $data.complaintManagement.status !== undefined ? $data.complaintManagement.status : null,",
-        "\t\t\tlodgmentdate: $data.complaintManagement.lodgmentdate !== undefined ? $data.complaintManagement.lodgmentdate : null,",
-        "\t\t\tresolutionDetails: $data.complaintManagement.resolutionDetails !== undefined ? $data.complaintManagement.resolutionDetails : null,",
-        "\t\t\tassignedTo: $data.complaintManagement.assignedTo !== undefined ? $data.complaintManagement.assignedTo : null,",
-        "\t\t\tresolvableAtFirstlevel: $data.complaintManagement.resolvableAtFirstlevel !== undefined ? $data.complaintManagement.resolvableAtFirstlevel : null,",
+        "\t\t\tcomplaintType: $data.complaintManagement.complaintType !== undefined ? $data.complaintManagement.complaintType : null,",
         "\t\t\tsubCategory: $data.complaintManagement.subCategory !== undefined ? $data.complaintManagement.subCategory : null,",
+        "\t\t\tpriority: $data.complaintManagement.priority !== undefined ? $data.complaintManagement.priority : null,",
+        "\t\t\tlodgmentdate: $data.complaintManagement.lodgmentdate !== undefined ? $data.complaintManagement.lodgmentdate : null,",
+        "\t\t\tstatus: $data.complaintManagement.status !== undefined ? $data.complaintManagement.status : null,",
+        "\t\t\tresolutionDetails: $data.complaintManagement.resolutionDetails !== undefined ? $data.complaintManagement.resolutionDetails : null,",
         "\t\t\tinvestigationMethod: $data.complaintManagement.investigationMethod !== undefined ? $data.complaintManagement.investigationMethod : null,",
         "\t\t\tfindingsSummary: $data.complaintManagement.findingsSummary !== undefined ? $data.complaintManagement.findingsSummary : null,",
+        "\t\t\trootCause: $data.complaintManagement.rootCause !== undefined ? $data.complaintManagement.rootCause : null,",
+        "\t\t\tassignedTo: $data.complaintManagement.assignedTo !== undefined ? $data.complaintManagement.assignedTo : null,",
         "\t\t\tdecisionBy: $data.complaintManagement.decisionBy !== undefined ? $data.complaintManagement.decisionBy : null,",
-        "\t\t\tcomplaintId: $data.complaintManagement.complaintId !== undefined ? $data.complaintManagement.complaintId : null,",
         "\t\t\tresolvedBy: $data.complaintManagement.resolvedBy !== undefined ? $data.complaintManagement.resolvedBy : null,",
-        "\t\t\trootCause: $data.complaintManagement.rootCause !== undefined ? $data.complaintManagement.rootCause : null",
+        "\t\t\tisSensestive: $data.complaintManagement.isSensestive !== undefined ? $data.complaintManagement.isSensestive : null",
         "\t\t}",
         "\t}",
         "}"
@@ -1725,12 +1680,12 @@
       ],
       "exposed" : false
     },
-    "ResolvableAtFirstLevelOptions" : {
+    "IsSensitive" : {
       "type" : "json",
       "value" : [
         "[",
         "  { \"label\": \"Yes\", \"value\": true },",
-        "  { \"label\": \"No\", \"value\": false }",
+        "  { \"label\": \"no\", \"value\": false }",
         "]"
       ],
       "exposed" : false
@@ -1738,14 +1693,14 @@
   },
   "assets" : [
     {
-      "id" : "263089fb-eed6-4aec-be65-d0a8a3135202",
+      "id" : "f013ba88-84c8-4bf3-9601-bb4741cc24d9",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "9921498e-b8fd-43b5-b105-c7619aab8823",
+      "id" : "e2dc62c5-01fe-4cf6-a38c-2973be0839ce",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
